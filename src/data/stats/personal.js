@@ -5,7 +5,7 @@ const Age = () => {
 
   const tick = () => {
     const divisor = 1000 * 60 * 60 * 24 * 365.2421897; // ms in an average year
-    const birthTime = new Date('2003-09-15T09:17:00');
+    const birthTime = new Date('2004-05-27T09:17:00');
     setAge(((Date.now() - birthTime) / divisor).toFixed(11));
   };
 
